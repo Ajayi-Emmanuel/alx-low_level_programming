@@ -29,6 +29,7 @@ int _strlen(char *c)
 
 char *_strncat(char *dest, char *src, int n)
 {
+
 	int i, len;
 	len = _strlen(dest);
 
