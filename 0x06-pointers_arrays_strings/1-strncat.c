@@ -11,6 +11,7 @@
 
 int _strlen(char *c)
 {
+
 	int i = 0;
 	while (*(c + i) != '\0')
 	{
@@ -22,10 +23,11 @@ int _strlen(char *c)
 /**
  * _strncat - return the concatenates two stings
  *
- * @dest:destinations string
+ * @dest: destinations string
  * @n: number of bytes to append
  * Return: destinations string
  */
+
 
 char *_strncat(char *dest, char *src, int n)
 {
